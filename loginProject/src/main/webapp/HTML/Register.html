@@ -1,0 +1,36 @@
+<html>
+<head>
+<center>
+<title>Demo Server</title>
+</head>
+<body bgcolor=#70DEDB>
+<h1>User Registration</h1>
+<form name="frm" method="post" action="../Add">
+<table>
+<tr>
+<td>Email id
+<td><input type="text" pattern="[a-zA-Z0-9]+@[a-zA-Z]+(\.[a-zA-Z0-9]+)+" required name="email" placeholder="email">
+</tr>
+<tr>
+<td>Password
+<td><input type="password" name="psw" required>
+</td></tr>
+<tr>
+<td>Name
+<td><input type="text" name="name" required>
+</td></tr>
+<tr>
+<td>Date of Birth
+<td>
+<input type="text"  pattern="\d{4}-\d{1,2}-\d{1,2}" name="date" placeholder="YYYY-MM-DD" required >
+<tr>
+<tr>
+<td>
+<td><input type="submit" value="Submit">
+</td></tr>
+</table>
+</form>
+
+<a href="../index.html">Home</a>
+</body>
+</html>
